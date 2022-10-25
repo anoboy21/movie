@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    TMDB_API_KEY: process.env.08b5dc7d8539d5f952232df490e5de4e,
+    TMDB_API_KEY: process.env.TMDB_API_KEY,
   },
   images: {
     domains: ['image.tmdb.org'],
